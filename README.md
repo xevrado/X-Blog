@@ -1,2 +1,4 @@
 # X-Blog
-Blog yazılarımıza ulaşabilirsiniz.
+Blog yazılarımıza linkten ulaşabilirsiniz.
+
+[X-Blog](https://xevrado.github.io/X-Blog/)
