@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "title": "Sinyal Çubukları Ne İşe Yarar?",
+        "date": "2 Mayıs 2026",
+        "excerpt": "Telefonunuzdaki sinyal çubuklarının ne işe yaradığını hiç merak ettiniz mi? Bu blog yazısında sinyal çubuklarının ne işe yaradığına göz atabilirsiniz.",
+        "tags": [
+            "Sinyal Çubukları"
+        ],
+        "hiddenTags": [
+            "sinyal gücü",
+            "sinyal seviyesi",
+            "sinyal kalitesi",
+            "sinyal durumu",
+            "sinyal nasıl artırılır",
+            "internet hızı",
+            "internet kalitesi",
+            "internet durumu",
+            "baz istasyonu",
+            "çekim gücü",
+            "sinyal çekmiyor",
+            "sinyal sorunu",
+            "sinyal zayıf",
+            "sinyal yok",
+            "sinyal güçlendirici"
+        ],
+        "url": "sinyal-cubuklari-ne-ise-yarar.html"
+    },
+    {
+        "id": 2,
+        "title": "Modern CSS: Glassmorphism Tasarımı",
+        "date": "28 Nisan 2026",
+        "excerpt": "Modern web tasarımlarının vazgeçilmezi olan cam efekti (glassmorphism) tasarımını CSS kullanarak nasıl oluşturabileceğinizi detaylıca inceliyoruz.",
+        "tags": [
+            "CSS",
+            "Tasarım",
+            "UI/UX"
+        ],
+        "hiddenTags": [
+            "cam efekti",
+            "arka plan bulanıklığı",
+            "blur",
+            "modern stil",
+            "arayüz",
+            "stil dosyası",
+            "görsel"
+        ],
+        "url": "#"
+    },
+    {
+        "id": 3,
+        "title": "JavaScript ile Dinamik İçerik Yükleme",
+        "date": "20 Nisan 2026",
+        "excerpt": "Fetch API kullanarak JSON dosyalarından asenkron olarak nasıl veri çekebileceğinizi ve arayüzünüzü nasıl dinamik hale getireceğinizi anlattık.",
+        "tags": [
+            "JavaScript",
+            "Frontend",
+            "API"
+        ],
+        "hiddenTags": [
+            "js",
+            "veri çekme",
+            "dinamik site",
+            "json okuma",
+            "backend yok",
+            "asenkron",
+            "fetch",
+            "kod mantığı"
+        ],
+        "url": "#"
+    },
+    {
+        "id": 4,
+        "title": "SEO İpuçları: Blogunuzu Öne Çıkarın",
+        "date": "15 Nisan 2026",
+        "excerpt": "Statik blog sitenizi arama motorlarında nasıl daha üst sıralara taşıyabileceğiniz hakkında temel SEO optimizasyon teknikleri.",
+        "tags": [
+            "SEO",
+            "İçerik",
+            "Optimizasyon"
+        ],
+        "hiddenTags": [
+            "google",
+            "arama motoru",
+            "üst sıralara çıkma",
+            "tıklanma",
+            "başarı",
+            "anahtar kelime",
+            "hit"
+        ],
+        "url": "#"
+    }
+]
