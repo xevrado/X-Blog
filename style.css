@@ -22,10 +22,10 @@ body {
     color: var(--text-primary);
     min-height: 100vh;
     display: flex;
-    background-image: 
-        radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), 
-        radial-gradient(at 50% 0%, hsla(225,39%,30%,0.2) 0, transparent 50%), 
-        radial-gradient(at 100% 0%, hsla(339,49%,30%,0.2) 0, transparent 50%);
+    background-image:
+        radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 1) 0, transparent 50%),
+        radial-gradient(at 50% 0%, hsla(225, 39%, 30%, 0.2) 0, transparent 50%),
+        radial-gradient(at 100% 0%, hsla(339, 49%, 30%, 0.2) 0, transparent 50%);
 }
 
 .app-container {
@@ -145,7 +145,7 @@ body {
 }
 
 .sidebar-footer {
-    margin-top: auto; /* Bunu en alta iter */
+    margin-top: auto;
     padding-top: 24px;
     border-top: 1px solid var(--border-color);
     text-align: center;
@@ -166,7 +166,7 @@ body {
 
 .social-links a:hover {
     color: var(--accent-color);
-    transform: translateY(-3px); /* Hafifçe yukarı kayma efekti */
+    transform: translateY(-3px);
 }
 
 .sidebar-footer p {
@@ -174,7 +174,6 @@ body {
     color: var(--text-secondary);
     opacity: 0.6;
 }
-
 
 /* Main Content */
 .main-content {
@@ -284,16 +283,16 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background: rgba(15, 23, 42, 0.5); 
+    background: rgba(15, 23, 42, 0.5);
 }
- 
+
 ::-webkit-scrollbar-thumb {
-    background: rgba(148, 163, 184, 0.3); 
+    background: rgba(148, 163, 184, 0.3);
     border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(148, 163, 184, 0.5); 
+    background: rgba(148, 163, 184, 0.5);
 }
 
 /* Responsive */
@@ -302,7 +301,7 @@ body {
         flex-direction: column;
         overflow-y: auto;
     }
-    
+
     .sidebar {
         width: 100%;
         height: auto;
@@ -313,12 +312,12 @@ body {
         top: 0;
         z-index: 10;
     }
-    
+
     .main-content {
         padding: 20px;
         overflow-y: visible;
     }
-    
+
     .sidebar-footer {
         display: none;
     }
