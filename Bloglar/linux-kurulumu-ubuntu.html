@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux Kurulumu - xevrado Blog</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="../Resimler/logo.png" type="image/png">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <main class="main-content">
+            <a href="../index.html" class="back-btn"><i class='bx bx-arrow-back'></i> Ana Sayfaya Dön</a>
+            <article class="blog-article">
+                <header class="article-header">
+                    <div class="article-meta">
+                        <span class="article-date"><i class='bx bx-calendar'></i> 4 Mayıs 2026</span>
+                        <div class="article-tags">
+                            <span class="tag">Linux</span>
+                            <span class="tag">Ubuntu</span>
+                        </div>
+                    </div>
+                    <div class="title-with-info">
+                        <h1 class="article-title">Linux Kurulumu</h1>
+                        <div class="title-info-box">
+                            <i class='fa-solid fa-circle-exclamation'></i>
+                            <div class="info-content">
+                                <!-- Buraya bilgi notunuzu yazabilirsiniz -->
+                                Bu makale bilgilenmeniz için yazılmıştır. Her bilgisayar aynı kullanıcı deneyimi
+                                sunmayabilir. Bu sebeple denerken kendi bilgisayarınıza uygun seçenekleri araştırınız!
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div class="article-body">
+                    <p>Özgür ve güvenli bir işletim sistemi olan Linux kurulum aşamaları için aşağıdaki aşamaları
+                        izleyin. Çekirdeği Linux
+                        olan yüzlerce işletim sistemi olduğu için burada sizin için en bilinen dağıtımlardan biri olan
+                        Ubuntu'yu kuracağız ama merak etmeyin çoğu dağıtımda bu aşamalar birbirine çok benzerdir.</p>
+                    <h2>ISO Dosyası İndirme</h2>
+                    <p>Yerli işletim sistemimiz <a href="https://pardus.org.tr/en/download/" target="_blank">Pardus
+                            ISO</a> dosyasını indirebilir, Pardus hakkında bilgi almak için <a
+                            href="https://xevrado.github.io/xevrado-blog/Bloglar/yerli-isletim-sistemi-pardus.html"
+                            target="_blank">**Yerli
+                            İşletim Sistemimiz Pardus**</a> adlı blog'a bakabilirsiniz.</p>
+                    <p>ISO dosyası bilgisayarınıza format atmak veya yeni bir işletim sistemi kurmak için gereken tüm
+                        dosyaları bir arada tutan, kuruluma hazır dijital bir pakettir.</p>
+                    <p>Bu adımda <a href="https://ubuntu.com/download/desktop">resmi web sitesinden</a> Ubuntu ISO
+                        dosyasını
+                        indirmeniz gerekmektedir. İndirme sırasında internet bağlantınızın iyi olduğundan emin
+                        olun. ISO dosyasının boyutu yaklaşık 5-6 GB civarındadır.</p>
+
+                    <h2>USB Oluşturma</h2>
+                    <p>İşletim sistemini bilgisayarınıza kurmak için önyüklenebilir bir USB sürücüsü oluşturmamız
+                        gerekir. Bunun için Rufus (Windows'tan başka işletim sistemine geçenler için) programını
+                        kullanmanız önerilir.</p>
+                    <p>Rufus indirmek için <a href="https://rufus.ie/tr/">Rufus'un resmi web sitesinden</a> en son
+                        sürümü indirin.</p>
+                    <img src="../Resimler/rufus.png" alt="rufus indirme sayfası" class="article-image">
+                    <p>//Sürümler değişebilir. En üstteki en güncel sürümdür.//</p>
+
+                    <div class="step-box">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <strong>Aygıt Seçimi</strong>
+                            Rufus'u açtığınızda en üstteki "Aygıt" menüsünden taktığınız USB belleği seçin. **//(Dikkat:
+                            USB
+                            belleğinizdeki tüm veriler silinecektir!)//**
+                        </div>
+                    </div>
+
+                    <div class="step-box">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <strong>Önyükleme Seçimi (ISO Dosyası)</strong>
+                            "Önyükleme seçimi" (Boot selection) kısmında "Disk ya da ISO yansıması" seçili kalsın. Hemen
+                            yanındaki "SEÇ" butonuna tıklayın ve indirdiğiniz Ubuntu ISO dosyasını bulun.
+                        </div>
+                    </div>
+
+                    <div class="step-box">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <strong>Disk Bölüm Düzeni</strong>
+                            "Disk bölüm düzeni" (Partition scheme) olarak yeni nesil bilgisayarlar için
+                            <strong>GPT</strong>, eski BIOS sistemleri için ise <strong>MBR</strong> seçin. (Hedef
+                            sistem otomatik olarak UEFI olarak ayarlanacaktır, değiştirmeyin).
+                        </div>
+                    </div>
+
+                    <div class="step-box">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <strong>Yazdırma İşlemi</strong>
+                            Diğer ayarları varsayılan olarak bırakabilirsiniz. En alttaki "BAŞLAT" butonuna tıklayın.
+                            Gelen uyarılarda "ISO Yansıması modunda yazdır" seçeneğini onaylayın ve işlemin bitmesini
+                            bekleyin.
+                        </div>
+                    </div>
+
+                    <h2>Kurulum Aşaması</h2>
+                    <p>USB belleğinizi hazırladıktan sonra bilgisayarınızı yeniden başlatın ve kurulum ekranına ulaşmak
+                        için aşağıdaki adımları izleyin:</p>
+
+                    <div class="step-box">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <strong>BIOS/UEFI ve Secure Boot Ayarları</strong>
+                            Bilgisayarınızı yeniden başlatın ve BIOS/UEFI menüsüne girin (genellikle F2, Del veya F10
+                            tuşlarıyla). Kurulumda sorun yaşamamak için <strong>Secure Boot (Güvenli Önyükleme)</strong>
+                            ayarını <strong>Disabled (Kapalı)</strong> konuma getirmeniz önerilir. Ardından Boot Menu
+                            (Önyükleme Menüsü) tuşuna (F8, F12 vb.) basarak USB belleğinizi seçip başlatın.
+                        </div>
+                    </div>
+
+                    <div class="step-box">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <strong>Kurulum Ekranı</strong>
+                            Karşınıza çıkan GNU GRUB menüsünden <strong>"Try or Install Ubuntu"</strong> seçeneğine
+                            tıklayarak devam edin. Sistem kurulum arayüzünü yükleyecektir.
+                        </div>
+                    </div>
+
+                    <div class="step-box">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <strong>Dil ve Kurulum Tercihleri</strong>
+                            Sol taraftaki listeden "Türkçe" (veya istediğiniz dili) seçip <strong>"Ubuntu Kur"</strong>
+                            butonuna basın. Ardından klavye düzeninizi ayarlayın. İnternet bağlantısı ekranında Wi-Fi
+                            ağınıza bağlanmanız, güncellemeleri kurarken yardımcı olur.
+                        </div>
+                    </div>
+
+                    <div class="step-box">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <strong>Kurulum Türü (Normal Kurulum)</strong>
+                            Biz bu rehberde tüm diski sıfırlayarak temiz bir kurulum yapıyoruz. Bunun için
+                            <strong>"Diski sil ve Ubuntu yükle"</strong> (Erase disk and install Ubuntu) seçeneğini
+                            işaretleyin. Bu işlem diskteki tüm eski verileri ve işletim sistemlerini tamamen silecektir.
+                            "Şimdi Kur" diyerek disk değişikliklerini onaylayın.
+                        </div>
+                    </div>
+
+                    <div class="step-box">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <strong>Kullanıcı Bilgileri ve Tamamlama</strong>
+                            Zaman dilimi olarak bulunduğunuz konumu seçtikten sonra adınızı, bilgisayarınızın adını,
+                            kullanıcı adınızı ve parolanızı belirleyin. Dosyalar kopyalanıp kurulum tamamlandığında
+                            sistem sizden bilgisayarı yeniden başlatmanızı ve USB belleği çıkarmanızı isteyecektir.
+                        </div>
+                    </div>
+                    <p>Ubuntu kurulumu tamamlandı! Bilgisayarınız yeniden başladığında sizi karşılayan özgür ve güvenli
+                        sisteminiz sizi karşılayacak.
+                    </p>
+                </div>
+                <div class="article-footer">
+                    <hr class="footer-divider" />
+                    <div class="footer-authors">
+                        <div class="author-left">Yazar: Ömer Yener</div>
+                        <div class="author-separator">•</div>
+                        <div class="author-right">Düzenleyen: Ömer Yener</div>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </div>
+    <script src="../script.js"></script>
+</body>
+
+</html>

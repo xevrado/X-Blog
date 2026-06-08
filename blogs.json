@@ -1,0 +1,140 @@
+[
+    {
+        "id": 1,
+        "title": "Sinyal Çubukları Ne İşe Yarar?",
+        "date": "2 Mayıs 2026",
+        "excerpt": "Telefonunuzdaki sinyal çubuklarının ne işe yaradığını hiç merak ettiniz mi? Bu blog yazısında sinyal çubuklarının ne işe yaradığına göz atabilirsiniz.",
+        "tags": [
+            "Sinyal Çubukları"
+        ],
+        "hiddenTags": [
+            "sinyal gücü",
+            "sinyal seviyesi",
+            "sinyal kalitesi",
+            "sinyal durumu",
+            "sinyal nasıl artırılır",
+            "internet hızı",
+            "internet kalitesi",
+            "internet durumu",
+            "baz istasyonu",
+            "çekim gücü",
+            "sinyal çekmiyor",
+            "sinyal sorunu",
+            "sinyal zayıf",
+            "sinyal yok",
+            "sinyal güçlendirici"
+        ],
+        "url": "Bloglar/sinyal-cubuklari-ne-ise-yarar.html"
+    },
+    {
+        "id": 2,
+        "title": "Bluetooth Kulaklıklar Zararlı Mı?",
+        "date": "3 Mayıs 2026",
+        "excerpt": "Bluetooth kulaklıkların sağlık üzerindeki etkilerini hakkında bilgiler bulabilirsiniz.",
+        "tags": [
+            "Bluetooth Kulaklıklar"
+        ],
+        "hiddenTags": [
+            "bluetooth",
+            "kulaklık",
+            "kablosuz kulaklık",
+            "zararlı mı",
+            "radyasyon",
+            "sağlık",
+            "tehlikeli mi",
+            "tws",
+            "kulak içi",
+            "kulaklık zararları",
+            "beyin sağlığı",
+            "kanser",
+            "baş ağrısı"
+        ],
+        "url": "Bloglar/bluetooth-kulaklıklar-zararlı-mı.html"
+    },
+    {
+        "id": 3,
+        "title": "Linux Kurulumu",
+        "date": "4 Mayıs 2026",
+        "excerpt": "Bu yazıda, linux işletim sistemlerinin en popülerlerinden olan \"ubuntu'nun\" kurulum aşamalarını anlatacağız. Farklı bir sistem mi kurmak istiyorsunuz? Sorun değil. Çoğu linux kurulumu çok benzer adımlarla ilerler.",
+        "tags": [
+            "Linux",
+            "Ubuntu"
+        ],
+        "hiddenTags": [
+            "Ubuntu",
+            "Debian",
+            "Fedora",
+            "CentOS",
+            "Arch Linux",
+            "Manjaro",
+            "Linux Mint",
+            "openSUSE",
+            "Red Hat Enterprise Linux",
+            "Kali Linux",
+            "Alpine Linux",
+            "Gentoo",
+            "Elementary OS",
+            "Zorin OS",
+            "Pop!_OS",
+            "Deepin",
+            "Mageia",
+            "Solus",
+            "Parrot OS",
+            "İşletim Sistemi",
+            "Popüler linux işletim sistemler"
+        ],
+        "url": "Bloglar/linux-kurulumu-ubuntu.html"
+    },
+    {
+        "id": 4,
+        "title": "Yerli İşletim Sistemi Pardus",
+        "date": "4 Mayıs 2026",
+        "excerpt": "Pardus, Linux çekirdeği üzerine kurulu, TÜBİTAK BİLGEM tarafından ve Türkiye’de geliştirilen en iyi işletim sistemlerinden biridir.",
+        "tags": [
+            "Pardus",
+            "Linux"
+        ],
+        "hiddenTags": [
+            "Pardus",
+            "Linux",
+            "İşletim Sistemi",
+            "TÜBİTAK ULAKBİM",
+            "Türkiye'nin işletim sistemi",
+            "İşletim Sistemleri",
+            "Açık Kaynaklı İşletim Sistemi",
+            "Güvenli İşletim Sistemleri",
+            "Özgür Yazılım",
+            "Linux çekirdeği",
+            "Virüslere Karşı Koruma",
+            "Windows Alternatifi",
+            "Hızlı ve Hafif İşletim Sistemi",
+            "Topluluk Desteği"
+        ],
+        "url": "Bloglar/yerli-isletim-sistemi-pardus.html"
+    },
+    {
+        "id": 5,
+        "title": "yt-dlp ile Video İndirme",
+        "date": "7 Mayıs 2026",
+        "excerpt": "yt-dlp'nin ne olduğunu, yt-dlp ile internet üzerindeki binlerce kaynak üzerinden video ve ses dosyalarını indirme aşamalarını anlatacağız.",
+        "tags": [
+            "yt-dlp",
+            "Video İndirme"
+        ],
+        "hiddenTags": [
+            "yt-dlp",
+            "Video İndirme",
+            "YouTube",
+            "İnternetten video indirme",
+            "İnstagram video indirme",
+            "Twitter video indirme",
+            "Tiktok video indirme",
+            "Video indirme programı",
+            "Video indirme siteleri",
+            "Video indirme linki",
+            "Video indirme komutları",
+            "Link ile video indirme"
+        ],
+        "url": "Bloglar/yt-dlp-ile-video-indirme.html"
+    }
+]

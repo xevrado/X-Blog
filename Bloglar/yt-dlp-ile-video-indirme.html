@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yt-dlp ile Video İndirme - xevrado Blog</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="../Resimler/logo.png" type="image/png">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <div class="app-container">
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Geri Dön Butonu -->
+            <a href="../index.html" class="back-btn">
+                <i class='bx bx-arrow-back'></i> Ana Sayfaya Dön
+            </a>
+
+            <!-- Makale Alanı -->
+            <article class="blog-article">
+                <header class="article-header">
+                    <div class="article-meta">
+                        <span class="article-date"><i class='bx bx-calendar'></i> 7 Mayıs 2026</span>
+                        <div class="article-tags">
+                            <span class="tag">yt-dlp</span>
+                            <span class="tag">Video İndirme</span>
+                        </div>
+                    </div>
+                    <h1 class="article-title">yt-dlp ile Video İndirme</h1>
+                </header>
+
+                <div class="article-body">
+                    <p>yt-dlp, internet üzerindeki binlerce web sitesinden (YouTube, İnstagram, Twitter vb.) video ve
+                        ses
+                        dosyalarını en yüksek kalitede indirmenize olanak tanıyan, açık kaynaklı ve ücretsiz bir komut
+                        satırı aracıdır.</p>
+                    <p>Sektör standardı haline gelen eski youtube-dl projesinin geliştirilmiş ve güncel bir
+                        versiyonudur. Grafiksel bir arayüzü (penceresi) olmamasına rağmen, sunduğu hız ve özelleştirme
+                        imkanları sayesinde profesyonellerin bir numaralı tercihidir.</p>
+
+                    <h2>Neden yt-dlp?</h2>
+                    <p><strong>Sınırsız Kaynak Desteği:</strong> Sadece YouTube değil, binlerce farklı
+                        platformdan veri çekebilir.</p>
+                    <p><strong>En Yüksek Kalite:</strong> İndirilen videoları en yüksek kalitelerde (1080p, 4K) ve
+                        isteğe bağlı olarak ses dosyası olarak (MP3, WAV vb.) indirebilirsiniz. Arıca videoları en iyi
+                        hız kalitesinde indirme yeteneğine sahiptir.</p>
+                    <p><strong>Ücretsiz ve Güvenilir:</strong> Ücretsiz ve reklamsızdır. Güvenilirdir, tamamen açık
+                        kaynaklıdır.</p>
+                    <br>
+                    <br>
+                    <header class="article-header">
+                        <h1 class="article-subtitle">Kurulum</h1>
+                    </header>
+                    <p>yt-dlp'yi aşağıdaki adımlarla rahatlıkla bilgisayarınıza kurabilirsiniz.</p>
+
+                    <div class="step-box">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <strong>Klasör Oluşturma</strong>
+                            Öncelikle bilgisayarınızda masaüstüne boş bir klasör oluşturun. Klasörün adının
+                            <strong>"yt-dlp"</strong> olmasının işinizi kolaylaştıracağını unutmayın.
+
+                        </div>
+                    </div>
+                    <div class="step-box">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <strong>yt-dlp İndirme</strong>
+                            yt-dlp'nin <a href="https://github.com/yt-dlp/yt-dlp/releases" target="_blank">GitHub
+                                deposundan</a> <strong>"yt-dlp.exe" (Windows için)</strong> dosyasını indirin ve
+                            doğrudan
+                            oluşturmuş olduğunuz klasöre atın.
+                        </div>
+                    </div>
+                    <div class="step-box">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <strong>FFmpeg İndirme</strong>
+                            Resmi <a href="https://www.gyan.dev/ffmpeg/builds/" target="_blank">Gyan.dev</a> web
+                            sitesinden alta inip **//ffmpeg-git-essentials.7z//** dosyasını indirin. İndirilen
+                            dosyayı açın ve **//bin//** klasörünün içindeki üç dosyayı kopyalayın veya sürükleyerek
+                            doğrudan oluşturduğumuz klasöre yapıştırın.
+                        </div>
+                    </div>
+                    <div class="step-box">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <strong>Klasörü Kontrol Etme</strong>
+                            İndirmeye başlamadan önce klasörün içi şu şekilde olmalıdır:
+                            <img src="../Resimler/yt-dlp-dosya-gorunum.png" alt="yt-dlp klasör görünümü"
+                                class="article-image">
+                        </div>
+                    </div>
+                    <div class="step-box">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <strong>Video İndirmeye Başlama</strong>
+                            Video indirmek için klasörün içinde boş bir alana sağ tıklayarak //**"Terminalde Aç"**//a
+                            tıklayın. Ardından aşağıda kendi isteğinize uygun komutu uygulayın.
+                            <br>
+                            <br>
+                            <strong>Tekli Video İndirme</strong>
+                            Terminal ekranında şu komutu kullanın: <br>
+                            <code>.\yt-dlp "[Video Bağlantı Adresi (URL)]"</code>
+                            <br>
+                            <br>
+                            <strong>Oynatma Listesi İndirme</strong>
+                            Terminal ekranında şu komutu kullanın: <br>
+                            <code>.\yt-dlp -o "%(playlist)s/%(playlist_index)02d - %(title)s.%(ext)s" "[Video Bağlantı Adresi (URL)]"</code>
+                            <br>
+                            Bu komut önceki komuttan farklı olarak "-o" parametresi ile klasörleme yaparak her videoyu
+                            kendi klasörüne indirir ve sıralı bir şekilde kaydeder.
+                            <blockquote>Eğer indirme esnasında bağlantı sorunu gibi bir hatayla karşılaşırsanız <br>
+                                <code>.\yt-dlp --playlist-start [devam etmek istediğiniz sıra numarası] -o "%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s" "URL"</code>
+                                <br>
+                                şeklinde kaldığınız yerden indirmeye devam edebilirsiniz.
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="article-footer">
+                    <hr class="footer-divider">
+                    <div class="footer-authors">
+                        <div class="author-left">Yazar: Ömer Yener</div>
+                        <div class="author-separator">•</div>
+                        <div class="author-right">Düzenleyen: Ömer Yener</div>
+                    </div>
+                </div>
+            </article>
+
+        </main>
+    </div>
+    <script src="../script.js"></script>
+</body>
+
+</html>
