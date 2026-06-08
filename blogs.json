@@ -136,5 +136,29 @@
             "Link ile video indirme"
         ],
         "url": "Bloglar/yt-dlp-ile-video-indirme.html"
+    },
+    {
+        "id": 6,
+        "title": "Opera GX'in Karanlık Yüzü",
+        "date": "8 Haziran 2026",
+        "excerpt": "Bu yazıda Opera GX'in karanlık yüzünden bahsedeceğiz. Yalanlar, kandırmacalar, gizlilik sorunları ve daha fazlası...",
+        "tags": [
+            "Opera GX"
+        ],
+        "hiddenTags": [
+            "Opera GX",
+            "Opera",
+            "Karanlık Yüzü",
+            "Veri hırsızlığı",
+            "Opera GX'in söylediği yalanlar",
+            "Opera GX'in tarihi",
+            "Opera GX'in gizlilik sorunları",
+            "Opera GX'in güvenlik sorunları",
+            "Opera GX'in özellikleri",
+            "Oyun tarayıcısı",
+            "Opera GX'in performansı",
+            "En iyi web tarayıcıları"
+        ],
+        "url": "Bloglar/opera-gxin-karanlık-yüzü.html"
     }
 ]
